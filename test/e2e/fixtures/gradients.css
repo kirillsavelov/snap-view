@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.linear-gradient {
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.radial-gradient {
+  background-image: radial-gradient(circle, #ff7e5f, #feb47b);
+  height: 100px;
+}

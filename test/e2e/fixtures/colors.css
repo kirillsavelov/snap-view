@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text-color {
+  color: #ff5722;
+}
+
+.bg-color {
+  background-color: #e0f7fa;
+  padding: 10px;
+}
+
+.opacity {
+  color: #000;
+  opacity: 0.5;
+}
+
+.rgba-color {
+  color: rgba(255, 87, 34, 0.7);
+}
