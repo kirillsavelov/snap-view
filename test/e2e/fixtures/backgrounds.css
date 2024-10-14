@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.bg-image {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect width="10" height="10" fill="%23ff5722"/></svg>');
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+}
+
+.bg-repeat {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="5" height="5"><circle cx="2.5" cy="2.5" r="2.5" fill="%2300bcd4"/></svg>');
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  background-repeat: repeat;
+}
+
+.bg-position {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><circle cx="10" cy="10" r="10" fill="%238bc34a"/></svg>');
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-size {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><rect width="200" height="200" fill="%23ff9800"/></svg>');
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  background-size: cover;
+}

@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.box-shadow {
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow {
+  font-size: 24px;
+  color: #333;
+  text-shadow: 2px 2px #ff0000;
+}
