@@ -1,7 +1,7 @@
-import type { PipelineStep } from '@src/core/PipelineStep';
-import type { ResourceEmbedder } from '@src/core/ResourceEmbedder';
-import { FontEmbedder } from '@src/utils/FontEmbedder';
-import { ImageEmbedder } from '@src/utils/ImageEmbedder';
+import type { PipelineStep } from 'src/core/PipelineStep';
+import type { ResourceEmbedder } from 'src/core/ResourceEmbedder';
+import { FontEmbedder } from 'src/utils/FontEmbedder';
+import { ImageEmbedder } from 'src/utils/ImageEmbedder';
 
 export class EmbedResourcesStep
   implements PipelineStep<HTMLElement, HTMLElement>

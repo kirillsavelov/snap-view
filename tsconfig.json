@@ -12,8 +12,8 @@
     "noEmit": true,
     "strict": true,
     "paths": {
-      "@src/*": ["./src/*"],
-      "@test/*": ["./test/*"]
+      "src/*": ["./src/*"],
+      "test/*": ["./test/*"]
     }
   },
   "include": ["src", "test", "global.d.ts"]

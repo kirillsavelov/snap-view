@@ -1,8 +1,8 @@
-import type { PipelineStep } from '@src/core/PipelineStep';
-import type { Dimensions } from '@src/utils/HtmlElementDimensions';
-import { HtmlToSvgConverter } from '@src/utils/HtmlToSvgConverter';
-import { SvgToImageConverter } from '@src/utils/SvgToImageConverter';
-import type { ViewBoxDimensions } from '@src/utils/ViewBoxDimensions';
+import type { PipelineStep } from 'src/core/PipelineStep';
+import type { Dimensions } from 'src/utils/HtmlElementDimensions';
+import { HtmlToSvgConverter } from 'src/utils/HtmlToSvgConverter';
+import { SvgToImageConverter } from 'src/utils/SvgToImageConverter';
+import type { ViewBoxDimensions } from 'src/utils/ViewBoxDimensions';
 
 export class ConvertHtmlToImageStep
   implements PipelineStep<HTMLElement, HTMLImageElement>

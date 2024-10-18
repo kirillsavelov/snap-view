@@ -1,5 +1,5 @@
-import { SnapView } from '@src/SnapView';
-import type { View } from '@src/View';
+import { SnapView } from 'src/SnapView';
+import type { View } from 'src/View';
 
 const snapView: SnapView = new SnapView();
 

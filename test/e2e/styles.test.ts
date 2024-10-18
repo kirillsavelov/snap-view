@@ -1,6 +1,6 @@
-import { page } from '@test/e2e/utils/setup';
-import { setupPage } from '@test/e2e/utils/setupPage';
-import { snap } from '@test/e2e/utils/snap';
+import { page } from 'test/e2e/utils/setup';
+import { setupPage } from 'test/e2e/utils/setupPage';
+import { snap } from 'test/e2e/utils/snap';
 import { describe, expect, it } from 'vitest';
 
 describe('Styles', () => {

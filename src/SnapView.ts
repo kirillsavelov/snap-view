@@ -1,11 +1,11 @@
-import { View } from '@src/View';
-import type { Pipeline } from '@src/core/Pipeline';
-import { ConvertHtmlToImagePipeline } from '@src/pipelines/ConvertHtmlToImagePipeline';
+import { View } from 'src/View';
+import type { Pipeline } from 'src/core/Pipeline';
+import { ConvertHtmlToImagePipeline } from 'src/pipelines/ConvertHtmlToImagePipeline';
 import {
   type Dimensions,
   HtmlElementDimensions,
-} from '@src/utils/HtmlElementDimensions';
-import type { ViewBoxDimensions } from '@src/utils/ViewBoxDimensions';
+} from 'src/utils/HtmlElementDimensions';
+import type { ViewBoxDimensions } from 'src/utils/ViewBoxDimensions';
 
 export class SnapView {
   public async snap(): Promise<View> {

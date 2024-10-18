@@ -1,4 +1,4 @@
-import { BaseResourceEmbedder } from '@src/utils/BaseResourceEmbedder';
+import { BaseResourceEmbedder } from 'src/utils/BaseResourceEmbedder';
 
 export class ImageEmbedder extends BaseResourceEmbedder {
   public async embed(htmlElement: HTMLElement): Promise<void> {

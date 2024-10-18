@@ -1,4 +1,4 @@
-import type { HtmlElementAppearanceCloner } from '@src/utils/HtmlElementAppearanceCloner';
+import type { HtmlElementAppearanceCloner } from 'src/utils/HtmlElementAppearanceCloner';
 
 export class HtmlElementStyleCloner implements HtmlElementAppearanceCloner {
   public async clone(

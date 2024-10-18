@@ -1,4 +1,4 @@
-import type { PipelineStep } from '@src/core/PipelineStep';
+import type { PipelineStep } from 'src/core/PipelineStep';
 
 export class Pipeline<I, O> {
   private steps: PipelineStep<any, any>[] = [];

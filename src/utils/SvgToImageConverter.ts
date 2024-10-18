@@ -1,5 +1,5 @@
-import type { Converter } from '@src/core/Converter';
-import { ImageLoader } from '@src/utils/ImageLoader';
+import type { Converter } from 'src/core/Converter';
+import { ImageLoader } from 'src/utils/ImageLoader';
 
 export class SvgToImageConverter
   implements Converter<SVGElement, HTMLImageElement>

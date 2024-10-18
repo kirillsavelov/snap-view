@@ -1,4 +1,4 @@
-import { BaseNodeCloner } from '@src/utils/BaseNodeCloner';
+import { BaseNodeCloner } from 'src/utils/BaseNodeCloner';
 
 export class DefaultNodeCloner extends BaseNodeCloner {
   public async clone(node: Node): Promise<Node> {
