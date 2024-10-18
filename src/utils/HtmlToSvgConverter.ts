@@ -1,6 +1,6 @@
-import type { Converter } from '@src/core/Converter';
-import type { Dimensions } from '@src/utils/HtmlElementDimensions';
-import type { ViewBoxDimensions } from '@src/utils/ViewBoxDimensions';
+import type { Converter } from 'src/core/Converter';
+import type { Dimensions } from 'src/utils/HtmlElementDimensions';
+import type { ViewBoxDimensions } from 'src/utils/ViewBoxDimensions';
 
 export class HtmlToSvgConverter implements Converter<HTMLElement, SVGElement> {
   private static readonly NAMESPACE = 'http://www.w3.org/2000/svg';

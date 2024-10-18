@@ -1,4 +1,4 @@
-import type { ResourceEmbedder } from '@src/core/ResourceEmbedder';
+import type { ResourceEmbedder } from 'src/core/ResourceEmbedder';
 
 export abstract class BaseResourceEmbedder implements ResourceEmbedder {
   public abstract embed(htmlElement: HTMLElement): Promise<void>;

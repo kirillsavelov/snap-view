@@ -1,6 +1,6 @@
-import type { NodeCloner } from '@src/core/NodeCloner';
-import type { HtmlElementAppearanceCloner } from '@src/utils/HtmlElementAppearanceCloner';
-import { NodeClonerFactory } from '@src/utils/NodeClonerFactory';
+import type { NodeCloner } from 'src/core/NodeCloner';
+import type { HtmlElementAppearanceCloner } from 'src/utils/HtmlElementAppearanceCloner';
+import { NodeClonerFactory } from 'src/utils/NodeClonerFactory';
 
 export class SymbolElementCloner implements HtmlElementAppearanceCloner {
   private static readonly NAMESPACE = 'http://www.w3.org/2000/svg';

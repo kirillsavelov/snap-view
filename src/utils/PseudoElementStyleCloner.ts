@@ -1,4 +1,4 @@
-import type { HtmlElementAppearanceCloner } from '@src/utils/HtmlElementAppearanceCloner';
+import type { HtmlElementAppearanceCloner } from 'src/utils/HtmlElementAppearanceCloner';
 
 enum PseudoElement {
   Before = ':before',

@@ -1,8 +1,8 @@
-import { BaseNodeCloner } from '@src/utils/BaseNodeCloner';
-import type { HtmlElementAppearanceCloner } from '@src/utils/HtmlElementAppearanceCloner';
-import { HtmlElementStyleCloner } from '@src/utils/HtmlElementStyleCloner';
-import { PseudoElementStyleCloner } from '@src/utils/PseudoElementStyleCloner';
-import { SymbolElementCloner } from '@src/utils/SymbolElementCloner';
+import { BaseNodeCloner } from 'src/utils/BaseNodeCloner';
+import type { HtmlElementAppearanceCloner } from 'src/utils/HtmlElementAppearanceCloner';
+import { HtmlElementStyleCloner } from 'src/utils/HtmlElementStyleCloner';
+import { PseudoElementStyleCloner } from 'src/utils/PseudoElementStyleCloner';
+import { SymbolElementCloner } from 'src/utils/SymbolElementCloner';
 
 export class HtmlElementCloner extends BaseNodeCloner {
   private htmlElementAppearanceCloners: HtmlElementAppearanceCloner[] = [

@@ -1,5 +1,5 @@
-import type { NodeCloner } from '@src/core/NodeCloner';
-import { NodeClonerFactory } from '@src/utils/NodeClonerFactory';
+import type { NodeCloner } from 'src/core/NodeCloner';
+import { NodeClonerFactory } from 'src/utils/NodeClonerFactory';
 
 export abstract class BaseNodeCloner implements NodeCloner {
   public abstract clone(node: Node): Promise<Node>;
